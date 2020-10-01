@@ -250,6 +250,8 @@ h4.card-title {
     }
     .card-shadow {
         box-shadow: none;
+        margin: 0px 20px;
+        padding: 10px;
     }
     .footer-content {
         position: static;
@@ -258,5 +260,8 @@ h4.card-title {
     .footer-btn {
         width: 200px;
         margin: auto;
+    }
+    .intro-card-img {
+        width: 60%;
     }
 }
