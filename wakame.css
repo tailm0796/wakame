@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.menu-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.navi-menu {
+    height: 30vh;
+    background-image: url("./SVG/Asset\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 750px 250px;
+}
+
+.club-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    background: linear-gradient(to right, #2E9145, #99CA3D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+    color: #006937;
+}
+
+.header-content {
+    height: 70vh;
+    background-image: url("./SVG/Asset\ 3.svg");
+}
+
+form.form-inline button.search-button {
+    width: 20%;
+    height: 50px;
+    background-color: #3BB54A;
+    border-style: none;
+    border-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+form.form-inline input.search-form {
+    height: 50px;
+    width: 80%;
+    background-color: #fdfdfd36;
+    border-style: solid;
+    border-radius: 0px 25px 25px 0px;
+    border-color: #3BB54A;
+    padding-left: 20px;
+}
+
+@media(max-width: 1400px) {
+    .menu-text {
+        font-weight: 400;
+        font-size: large;
+    }
+    .club-name {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .content-text {
+        font-size: 12px;
+    }
+}
+
+.intro-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chunhiem-info{
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.chunhiem-info h2{
+    padding-top: 5px;
+}
+
+.phochunhiem-info{
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-card-img{
+    width: 80%;
+}
+.loiich-title{
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.loiich-title h1{
+    font-weight: 700;
+}
+h4.card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+@media(max-width: 767px){
+    .phochunhiem-info h4{
+        font-size: 17px;
+    }
+    .phochunhiem-info h6{
+        font-size: 12px;
+    }
+    .footer-content{
+        font-size: 10px;
+    }
+    a.footer-btn{
+        height: 30px;
+    }
+    .footer-content-right-title{
+        font-size: 15px;
+    }
+}
+.footer-img{
+    width: 100%;
+}
+.footer-content{
+    position: relative;
+    top: 50px;
+}
+.footer-content-right-title{
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-btn{
+    background: linear-gradient(to right,#E63425 10%,#F26722 80%);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    text-transform: uppercase;
+}
+.footer-btn:hover{
+    background: linear-gradient(to right,#E63425 80%,#F26722 100%);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+}
