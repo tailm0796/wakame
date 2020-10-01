@@ -8,6 +8,11 @@ body {
     background-color: #ffffff;
 }
 
+/* CSS HEADER */
+img.web-logo{
+    width: 120px;
+    height: 105px;
+}
 .menu-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -66,6 +71,94 @@ form.form-inline input.search-form {
     padding-left: 20px;
 }
 
+/* BAN CHU NHIEM */
+
+.intro-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chunhiem-info {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chunhiem-info h2 {
+    padding-top: 5px;
+}
+
+.phochunhiem-info {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* LOI ICH MANG LAI */
+
+.intro-card-img {
+    width: 80%;
+}
+
+.loiich-title {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loiich-title h1 {
+    font-weight: 700;
+}
+
+h4.card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* FOOTER */
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+    top: 50px;
+}
+
+.footer-content-right-title {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, #0C6B37, #2AB56C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-btn {
+    background: linear-gradient(to right, #E63425 10%, #F26722 80%);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.footer-btn:hover {
+    background: linear-gradient(to right, #E63425 80%, #F26722 100%);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+}
+
+/* TOI UU MAN HINH */
+
 @media(max-width: 1400px) {
     .menu-text {
         font-weight: 400;
@@ -80,89 +173,50 @@ form.form-inline input.search-form {
     }
 }
 
-.intro-title {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
-    background: linear-gradient(to right, #0C6B37, #2AB56C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.chunhiem-info{
-    font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to right, #0C6B37, #2AB56C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.chunhiem-info h2{
-    padding-top: 5px;
-}
-
-.phochunhiem-info{
-    font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to right, #0C6B37, #2AB56C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.intro-card-img{
-    width: 80%;
-}
-.loiich-title{
-    font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to right, #0C6B37, #2AB56C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.loiich-title h1{
-    font-weight: 700;
-}
-h4.card-title{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-}
-@media(max-width: 767px){
-    .phochunhiem-info h4{
+@media(max-width: 767px) {
+    .phochunhiem-info h4 {
         font-size: 17px;
     }
-    .phochunhiem-info h6{
+    .phochunhiem-info h6 {
         font-size: 12px;
     }
-    .footer-content{
+    .footer-content {
         font-size: 10px;
     }
-    a.footer-btn{
+    a.footer-btn {
         height: 30px;
     }
-    .footer-content-right-title{
+    .footer-content-right-title {
         font-size: 15px;
     }
 }
-.footer-img{
-    width: 100%;
-}
-.footer-content{
-    position: relative;
-    top: 50px;
-}
-.footer-content-right-title{
-    font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to right, #0C6B37, #2AB56C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.footer-btn{
-    background: linear-gradient(to right,#E63425 10%,#F26722 80%);
-    border-style: none;
-    border-radius: 20px;
-    color: white;
-    height: 40px;
-    text-transform: uppercase;
-}
-.footer-btn:hover{
-    background: linear-gradient(to right,#E63425 80%,#F26722 100%);
-    border-style: none;
-    border-radius: 20px;
-    color: white;
+@media(max-width: 575px){
+    img.web-logo{
+        width: 90px;
+        height: 75px;
+    }
+    .navi-menu {
+        height: 10vh;
+        background-image: none;
+    }
+    .header-content img{
+        width: 300px;
+        position: relative;
+        padding: 30px 0px;
+        padding-left: 55px;
+    }
+    div.navi-menu nav.navbar{
+        background-color: #dde6e2d2;
+    }
+    .club-name {
+        font-size: 2rem;
+        text-align: center;
+    }
+    div.row form.form-inline button.search-button{
+        font-size: 12px;
+    }
+    .header-content {
+        height: 55vh;
+        background-image: url("./SVG/Asset\ 3.svg");
+    }
 }
