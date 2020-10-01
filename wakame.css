@@ -90,6 +90,7 @@ form.form-inline input.search-form {
     background: linear-gradient(to right, #0C6B37, #2AB56C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 80px;
 }
 
 .chunhiem-info {
@@ -211,7 +212,7 @@ h4.card-title {
         height: 75px;
     }
     .navi-menu {
-        height: 10vh;
+        height: 15vh;
         background-image: none;
     }
     .header-content img {
@@ -231,7 +232,7 @@ h4.card-title {
         font-size: 12px;
     }
     .header-content {
-        height: 55vh;
+        height: 62vh;
         background-image: url("./SVG/Asset\ 3.svg");
     }
     .chunhiem-img {
