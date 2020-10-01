@@ -5,18 +5,28 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #e6f3e3;
 }
 
 /* CSS HEADER */
-img.web-logo{
+
+img.web-logo {
     width: 120px;
     height: 105px;
 }
+
 .menu-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: x-large;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(0, 0, 0, 0.582);
+    font-weight: 500;
 }
 
 .navi-menu {
@@ -123,6 +133,10 @@ h4.card-title {
     font-size: 25px;
 }
 
+.card-shadow {
+    box-shadow: 6px 6px 10px #C2EFEE;
+}
+
 /* FOOTER */
 
 .footer-img {
@@ -190,8 +204,9 @@ h4.card-title {
         font-size: 15px;
     }
 }
-@media(max-width: 575px){
-    img.web-logo{
+
+@media(max-width: 575px) {
+    img.web-logo {
         width: 90px;
         height: 75px;
     }
@@ -199,24 +214,48 @@ h4.card-title {
         height: 10vh;
         background-image: none;
     }
-    .header-content img{
+    .header-content img {
         width: 300px;
-        position: relative;
+        display: block;
+        margin: auto;
         padding: 30px 0px;
-        padding-left: 55px;
     }
-    div.navi-menu nav.navbar{
+    div.navi-menu nav.navbar {
         background-color: #dde6e2d2;
     }
     .club-name {
         font-size: 2rem;
         text-align: center;
     }
-    div.row form.form-inline button.search-button{
+    div.row form.form-inline button.search-button {
         font-size: 12px;
     }
     .header-content {
         height: 55vh;
         background-image: url("./SVG/Asset\ 3.svg");
+    }
+    .chunhiem-img {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .phochunhiem-img {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .loiich-title h5 {
+        font-size: medium;
+    }
+    .card-shadow {
+        box-shadow: none;
+    }
+    .footer-content {
+        position: static;
+        padding: 10px 20px;
+    }
+    .footer-btn {
+        width: 200px;
+        margin: auto;
     }
 }
