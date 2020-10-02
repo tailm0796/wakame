@@ -35,7 +35,13 @@ img.web-logo {
     background-repeat: no-repeat;
     background-size: 750px 250px;
 }
-
+.login-button{
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
 .club-name {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -263,5 +269,9 @@ h4.card-title {
     }
     .intro-card-img {
         width: 60%;
+    }
+    .navbar-brand{
+        display: block;
+        margin: auto;
     }
 }
