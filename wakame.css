@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #e6f3e3;
+    background-color: #f9fff7;
 }
 
 /* CSS HEADER */
@@ -35,6 +35,12 @@ img.web-logo {
     background-repeat: no-repeat;
     background-size: 750px 250px;
 }
+/* #menu-bg{
+    width: 750px;
+    position: fixed;
+    z-index: 1029;
+    top: 0;
+} */
 .login-button{
     background-color: rgba(255, 255, 255, 0.767);
     border-radius: 25px;
@@ -153,6 +159,7 @@ h4.card-title {
 .footer-content {
     position: relative;
     top: 50px;
+    text-align: justify;
 }
 
 .footer-content-right-title {
@@ -197,6 +204,7 @@ h4.card-title {
 @media(max-width: 767px) {
     .phochunhiem-info h4 {
         font-size: 17px;
+        padding-top: 10px;
     }
     .phochunhiem-info h6 {
         font-size: 12px;
