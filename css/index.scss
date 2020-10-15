@@ -23,7 +23,7 @@ body {
     .navi-menu {
         nav {
             height: 200px;
-            background-image: url("./img/Asset\ 1.png");
+            background-image: url("../images/Asset\ 1.png");
             background-size: auto 200px;
             background-repeat: no-repeat;
             &.navbar {
@@ -85,6 +85,9 @@ body {
                     font-size: medium;
                     width: 20%;
                     height: 50px;
+                    &:focus{
+                        box-shadow: none;
+                    }
                 }
                 .form {
                     border-radius: 0px 25px 25px 0px;
@@ -92,6 +95,9 @@ body {
                     padding-left: 20px;
                     width: 80%;
                     height: 50px;
+                    &:focus{
+                        box-shadow: none;
+                    }
                 }
             }
         }
@@ -311,8 +317,11 @@ body {
                         width: 90%;
                     }
                     .button {
-                        
+                        height: 40px;
                         font-size: small;
+                    }
+                    .form{
+                        height: 40px;
                     }
                 }
             }

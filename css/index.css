@@ -20,7 +20,7 @@ body {
 
 body .navi-menu nav {
   height: 200px;
-  background-image: url("./images/Asset 1.png");
+  background-image: url("../images/Asset 1.png");
   background-size: auto 200px;
   background-repeat: no-repeat;
 }
@@ -438,4 +438,4 @@ body footer::after {
     font-size: 2rem;
   }
 }
-/*# sourceMappingURL=wakame.css.map */
+/*# sourceMappingURL=index.css.map */
