@@ -55,7 +55,7 @@ body .navi-menu nav #nav-logo {
 }
 
 body header .container-fluid {
-  background-image: url("./SVG/Asset 3.svg");
+  background-image: url("../SVG/Asset 3.svg");
 }
 
 body header .container-fluid::before {
@@ -232,7 +232,7 @@ body footer::after {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 715px) {
   body .navi-menu nav .navbar-brand {
     margin-right: 0px;
   }
@@ -284,16 +284,11 @@ body footer::after {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 625px) {
   body .navi-menu nav {
     height: auto;
     background-image: none;
     background-color: #dde6e2d2;
-  }
-  body .navi-menu nav.navbar {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
   }
   body .navi-menu nav .navbar-collapse ul {
     -webkit-box-orient: horizontal;
@@ -302,17 +297,17 @@ body footer::after {
             flex-direction: row;
   }
   body .navi-menu nav .navbar-collapse ul li {
-    padding: 5px;
+    padding: 10px;
   }
   body .navi-menu nav .navbar-collapse ul li a {
     color: #2e2525;
-    font-size: medium;
+    font-size: large;
   }
   body .navi-menu nav .navbar-collapse ul li a:hover {
     color: #84e99a;
   }
   body .navi-menu nav #nav-logo {
-    width: 80px;
+    width: 100px;
     position: fixed;
     top: 0;
     right: 0;
@@ -320,7 +315,7 @@ body footer::after {
   body header .container-fluid::before {
     content: "";
     display: block;
-    height: 100px;
+    height: 150px;
   }
   body header .container-fluid #club-name {
     font-size: 3rem;
@@ -328,13 +323,101 @@ body footer::after {
     margin: 20px 0px;
   }
   body header .container-fluid #club-intro {
-    font-size: 13px;
+    font-size: 16px;
+    padding: 0px 0px;
   }
   body header .container-fluid .search {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   body header .container-fluid .search .form-inline {
+    width: 80%;
+  }
+  body header .container-fluid .search .button {
+    height: 40px;
+    font-size: small;
+  }
+  body header .container-fluid .search .form {
+    height: 40px;
+  }
+  body .giatri {
+    margin: 10px 0px;
+  }
+  body .giatri .title {
+    margin: 0px 0px;
+  }
+  body .giatri .title h5 {
+    font-size: 1.2rem;
+  }
+  body .giatri .content .card-content {
+    margin: 0px 5px 10px 5px;
+    padding: 0px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  body .giatri .content .card-content .image {
     width: 90%;
+  }
+  body .giatri .content .card-content .card-body {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    padding: 0px 10px 10px;
+    margin-top: -20px;
+  }
+  body .giatri .content .card-content .card-body h4 {
+    font-size: 20px;
+  }
+  body .giatri .content .card-content .card-body p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 575px) {
+  body .navi-menu nav {
+    height: auto;
+    background-image: none;
+    background-color: #dde6e2d2;
+  }
+  body .navi-menu nav .navbar-collapse ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .navi-menu nav .navbar-collapse ul li {
+    padding: 10px;
+  }
+  body .navi-menu nav .navbar-collapse ul li a {
+    color: #2e2525;
+    font-size: large;
+  }
+  body .navi-menu nav .navbar-collapse ul li a:hover {
+    color: #84e99a;
+  }
+  body .navi-menu nav #nav-logo {
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  body header .container-fluid::before {
+    content: "";
+    display: block;
+    height: 150px;
+  }
+  body header .container-fluid #club-name {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  body header .container-fluid #club-intro {
+    font-size: 16px;
+    padding: 0px 30px;
+  }
+  body header .container-fluid .search {
+    margin-top: 30px;
+  }
+  body header .container-fluid .search .form-inline {
+    width: 80%;
   }
   body header .container-fluid .search .button {
     height: 40px;
@@ -389,11 +472,11 @@ body footer::after {
     margin: 0px 0px;
   }
   body .giatri .title h5 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .giatri .content .card-content {
-    margin: 30px 30px 0px 30px;
-    padding: 10px 10px;
+    margin: 40px 40px 0px 40px;
+    padding: 20px 20px;
     -webkit-box-shadow: none;
             box-shadow: none;
   }

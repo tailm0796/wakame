@@ -1,30 +1,4 @@
 
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-}
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -36,12 +10,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: "Quicksand", sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: "Quicksand", sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -67,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: "Quicksand", sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -134,14 +108,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: "Quicksand", sans-serif;
   font-size: 13px;
   line-height: 1.5;
   color: #999999;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: "Quicksand", sans-serif;
   font-size: 13px;
   line-height: 1.5;
   color: #666666;
@@ -188,7 +162,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  padding: 60px 130px 60px 95px;
 }
 
 /*------------------------------------------------------------------
@@ -214,6 +188,7 @@ iframe {
   font-size: 3rem;
   background: -webkit-gradient(linear, left top, right top, from(#2e9145), to(#99ca3d));
   background: linear-gradient(to right, #2e9145, #99ca3d);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -232,7 +207,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-Medium;
+  font-family: "Quicksand", sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -325,7 +300,8 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Montserrat-Bold;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -363,11 +339,12 @@ iframe {
 
 @media (max-width: 992px) {
   .wrap-login100 {
-    padding: 177px 90px 33px 85px;
+    padding: 40px 90px 33px 85px;
   }
 
   .login100-pic {
-    width: 35%;
+    width: 50%;
+    margin: auto;
   }
 
   .login100-form {
@@ -381,7 +358,7 @@ iframe {
   }
 
   .login100-pic {
-    display: none;
+    display: block;
   }
 
   .login100-form {
@@ -392,73 +369,5 @@ iframe {
 @media (max-width: 576px) {
   .wrap-login100 {
     padding: 100px 15px 33px 15px;
-  }
-}
-
-
-/*------------------------------------------------------------------
-[ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: white;
-  border: 1px solid #c80000;
-  border-radius: 13px;
-  padding: 4px 25px 4px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 8px;
-  pointer-events: none;
-
-  font-family: Poppins-Medium;
-  color: #c80000;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f06a";
-  font-family: FontAwesome;
-  display: block;
-  position: absolute;
-  color: #c80000;
-  font-size: 15px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 13px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
   }
 }

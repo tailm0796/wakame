@@ -54,7 +54,7 @@ body {
     }
     header {
         .container-fluid {
-            background-image: url('./SVG/Asset\ 3.svg');
+            background-image: url('../SVG/Asset\ 3.svg');
             &::before {
                 content: "";
                 display: block;
@@ -195,7 +195,7 @@ body {
         }
     }
 }
-@media(max-width:768px){
+@media(max-width:715px){
     body{
         .navi-menu{
             nav{
@@ -263,24 +263,21 @@ body {
         }
     }
 }
-@media(max-width:414px){
+@media(max-width:625px){
     body{
         .navi-menu {
             nav {
                 height: auto;
                 background-image: none;
                 background-color: #dde6e2d2;
-                &.navbar {
-                    align-items: start;
-                }
                 .navbar-collapse {
                     ul {
                         flex-direction: row;
                         li {
-                            padding: 5px;
+                            padding: 10px;
                             a {
                                 color: rgb(46, 37, 37);
-                                font-size: medium;
+                                font-size: large;
                                 &:hover {
                                     color: rgb(132, 233, 154);
                                 }
@@ -289,7 +286,7 @@ body {
                     }
                 }
                 #nav-logo {
-                    width: 80px;
+                    width: 100px;
                     position: fixed;
                     top: 0;
                     right: 0;
@@ -301,7 +298,7 @@ body {
                 &::before {
                     content: "";
                     display: block;
-                    height: 100px;
+                    height: 150px;
                 }
                 #club-name {
                     font-size: 3rem;
@@ -309,12 +306,107 @@ body {
                     margin: 20px 0px;
                 }
                 #club-intro{
-                    font-size: 13px;
+                    font-size: 16px;
+                    padding: 0px 0px;
                 }
                 .search {
-                    margin-top: 20px;
+                    margin-top: 30px;
                     .form-inline {
+                        width: 80%;
+                    }
+                    .button {
+                        height: 40px;
+                        font-size: small;
+                    }
+                    .form{
+                        height: 40px;
+                    }
+                }
+            }
+        }
+        .giatri {
+            margin: 10px 0px;
+            .title {
+                margin: 0px 0px;
+                h5{
+                    font-size: 1.2rem;
+                }
+            }
+            .content {
+                .card-content {
+                    margin: 0px 5px 10px 5px;
+                    padding: 0px 0px;
+                    box-shadow: none;
+                    .image{
                         width: 90%;
+                    }
+                    .card-body {
+                        font-family: "Quicksand", sans-serif;
+                        font-weight: bold;
+                        padding: 0px 10px 10px;
+                        margin-top: -20px;
+                        h4 {
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:575px){
+    body{
+        .navi-menu {
+            nav {
+                height: auto;
+                background-image: none;
+                background-color: #dde6e2d2;
+                .navbar-collapse {
+                    ul {
+                        flex-direction: row;
+                        li {
+                            padding: 10px;
+                            a {
+                                color: rgb(46, 37, 37);
+                                font-size: large;
+                                &:hover {
+                                    color: rgb(132, 233, 154);
+                                }
+                            }
+                        }
+                    }
+                }
+                #nav-logo {
+                    width: 100px;
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+        header {
+            .container-fluid {
+                &::before {
+                    content: "";
+                    display: block;
+                    height: 150px;
+                }
+                #club-name {
+                    font-size: 3rem;
+                    text-align: center;
+                    margin: 20px 0px;
+                }
+                #club-intro{
+                    font-size: 16px;
+                    padding: 0px 30px;
+                }
+                .search {
+                    margin-top: 30px;
+                    .form-inline {
+                        width: 80%;
                     }
                     .button {
                         height: 40px;
@@ -376,13 +468,13 @@ body {
             .title {
                 margin: 0px 0px;
                 h5{
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
             }
             .content {
                 .card-content {
-                    margin: 30px 30px 0px 30px;
-                    padding: 10px 10px;
+                    margin: 40px 40px 0px 40px;
+                    padding: 20px 20px;
                     box-shadow: none;
                     .card-body {
                         font-family: "Quicksand", sans-serif;
@@ -403,6 +495,7 @@ body {
         }
     }
 }
+
 @media(max-width:320px){
     body{
         .navi-menu {
